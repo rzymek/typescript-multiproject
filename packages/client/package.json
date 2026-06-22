@@ -14,9 +14,6 @@
     "@workspace/library": "workspace:*"
   },
   "devDependencies": {
-    "vite": "^6.2.3",
-    "vitest": "^3.0.0",
-    "typescript": "~5.8.2",
     "@types/react": "^19.0.1",
     "@types/react-dom": "^19.0.1"
   }

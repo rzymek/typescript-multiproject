@@ -1,5 +1,4 @@
-import { greetUser, getSystemStatus } from "@workspace/library/public";
-import { greetUserSecondary, getSecondaryStatus } from "@workspace/library/public2";
+import { greetUser, getSystemStatus, greetUserSecondary, getSecondaryStatus } from "@workspace/library";
 
 export function App() {
   const greetingMessage = greetUser("World");

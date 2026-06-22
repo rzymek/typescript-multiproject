@@ -8,7 +8,7 @@
     "build": "pnpm --filter @workspace/client build",
     "test": "pnpm -r test",
     "clean": "rm -rf packages/client/dist",
-    "lint": "pnpm -r exec tsc --noEmit"
+    "lint": "tsc --build"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^5.0.4",
