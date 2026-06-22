@@ -1,0 +1,133 @@
+/* Reset and Base Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  background-color: #020617; /* bg-slate-950 equivalent */
+  color: #f1f5f9; /* text-slate-100 equivalent */
+}
+
+/* Base utility/semantic styles mapping to the React components */
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.bg-slate-950 {
+  background-color: #020617;
+}
+
+.text-slate-100 {
+  color: #f1f5f9;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.p-6 {
+  padding: 1.5rem;
+}
+
+.max-w-2xl {
+  max-width: 42rem;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.bg-slate-900 {
+  background-color: #0f172a;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-slate-850 {
+  border-color: #1e293b;
+}
+
+.border-slate-800 {
+  border-color: #1e293b;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.shadow-2xl {
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.5);
+}
+
+.text-sm {
+  font-size: 0.875rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.text-slate-400 {
+  color: #94a3b8;
+}
+
+.text-indigo-300 {
+  color: #c7d2fe;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.tracking-wider {
+  letter-spacing: 0.05em;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.overflow-x-auto {
+  overflow-x: auto;
+}
+
+.leading-relaxed {
+  line-height: 1.625;
+}
+
+pre {
+  font-family: inherit;
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+

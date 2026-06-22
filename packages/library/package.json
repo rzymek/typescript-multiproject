@@ -1,0 +1,19 @@
+{
+  "name": "@workspace/library",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./src/public.ts",
+  "types": "./src/public.ts",
+  "exports": {
+    ".": {
+      "types": "./src/public.ts",
+      "import": "./src/public.ts"
+    }
+  },
+  "scripts": {
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "vitest": "^3.0.0"
+  }
+}
