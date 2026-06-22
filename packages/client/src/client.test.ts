@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { greetUser, getSystemStatus } from "@workspace/library";
+import { greetUser, getSystemStatus } from "@workspace/library/public";
 
 describe("Client Integration Suite", () => {
   it("should securely import public interface functions from @workspace/library", () => {

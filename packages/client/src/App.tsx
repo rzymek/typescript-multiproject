@@ -1,8 +1,11 @@
-import { greetUser, getSystemStatus } from "@workspace/library";
+import { greetUser, getSystemStatus } from "@workspace/library/public";
+import { greetUserSecondary, getSecondaryStatus } from "@workspace/library/public2";
 
 export function App() {
   const greetingMessage = greetUser("World");
   const systemStatus = getSystemStatus();
+  const greetingSecondary = greetUserSecondary("World");
+  const secondaryStatus = getSecondaryStatus();
 
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col items-center justify-center p-6 font-mono">
@@ -11,7 +14,7 @@ export function App() {
           Library Resolution Output
         </h1>
         <pre id="pre-output" className="bg-slate-950 border border-slate-800 p-4 rounded-lg text-indigo-300 text-xs overflow-x-auto leading-relaxed">
-{JSON.stringify({ greetingMessage, systemStatus }, null, 2)}
+{JSON.stringify({ greetingMessage, systemStatus, greetingSecondary, secondaryStatus }, null, 2)}
         </pre>
       </div>
     </div>

@@ -5,9 +5,13 @@
   "main": "./src/public.ts",
   "types": "./src/public.ts",
   "exports": {
-    ".": {
+    "./public": {
       "types": "./src/public.ts",
       "import": "./src/public.ts"
+    },
+    "./public2": {
+      "types": "./src/public2.ts",
+      "import": "./src/public2.ts"
     }
   },
   "scripts": {
